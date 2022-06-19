@@ -1,2 +1,2 @@
-# goit-markup-hw-01.
-hw-module-1
+# goit-markup-hw-02.
+hw-module-2
