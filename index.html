@@ -4,55 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
     <title>WebStudio-сайт компании</title>
+    <link rel="stylesheet" href="../goit-markup-hw-01./styles/styles.css\"/>
+
 </head>
 <body> 
-<!--Шапка страници-->
-  <header>
-    <a href="./index.html"><span lang="en">Web</span><span lang="en">Studio</span></a>
-    <nav>
-<!--Навигация-->
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+<!-- ---------------------ШАПКА СТОРІНКИ--------------------- -->
+  <header class="header">
+    <a href="./index.html"><span class="logo-web" lang="en">Web</span>
+      <span class="logo-studio" lang="en">Studio</span></a>
+<!-- -------------------НАВІГАЦІЯ САЙТУ ХЕДЕР------------------- -->
+    <nav class="site-nav">
+      <ul class="site-nav-list">
+        <li><a class="site-nav-link" href="./index.html">Студия</a></li>
+        <li><a class="site-nav-link" href="./portfolio.html">Портфолио</a></li>
+        <li><a class="site-nav-link" href="#">Контакты</a></li>
       </ul>
     </nav>
-    <div>
-      <ul>
-<!--]Контакты хедер-->
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+<!---------------------КОНТАКТИ ХЕДЕР--------------------->   
+    <div class="contacts-header">
+      <ul class="contacts-header-list">
+        <li class="contacts-mail-link" ><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contacts-tel-link" ><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
-    </div>
+    </div>    
   </header>
   <main>
-<!--Секция основного заголовка-->
-    <section>
+<!---------------------ГЕРОЙ--------------------->
+    <section class="hero">
       <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
       <button type="button">Заказать услугу</button>
     </section>
-    <section>
-      <h2>Принципы работы</h2>
-<!--Секция"Принципы работы"-->
-      <ul>
-        <li>
-          <h3>ВНИМАНИЕ К ДЕТЕЛЯМ</h3>
-          <p>Идейные соображения, а также<br>начало повседневной работы по<br>формированию позиции.</p>
-        </li>
-        <li>
-          <h3>ПУНКТУАЛЬНОСТЬ</h3>
-          <p>Задача организации, в особенности<br>же рамки и место обучения кадров<br>влечет за собой.</p>
-        </li>
-        <li>
-          <h3>ПЛАНИРОВАНИЕ</h3>
-          <p>Равным образом консультация с<br>широким активом в значительной<br>степени обуславливает.</p>
-        </li>
-        <li>
-          <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
-          <p>Значимость этих проблем настолько<br>очевидна, что реализация плановых<br>заданий.</p>
-        </li>
-      </ul>
+<!---------------------Принципы работы--------------------->
+    <section class="principles">
+      <h2 class="visually-hiden">Принципы работы</h2>
+        <ul class="principles-list">
+          <li>
+            <h3>ВНИМАНИЕ К ДЕТЕЛЯМ</h3>
+            <p>Идейные соображения, а также<br>начало повседневной работы по<br>формированию позиции.</p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНОСТЬ</h3>
+            <p>Задача организации, в особенности<br>же рамки и место обучения кадров<br>влечет за собой.</p>
+          </li>
+          <li>
+            <h3>ПЛАНИРОВАНИЕ</h3>
+            <p>Равным образом консультация с<br>широким активом в значительной<br>степени обуславливает.</p>
+          </li>
+          <li>
+            <h3>СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+            <p>Значимость этих проблем настолько<br>очевидна, что реализация плановых<br>заданий.</p>
+          </li>
+        </ul>
     </section>
     <section>
       <h2>Чем мы занимаемся</h2>
@@ -81,8 +89,10 @@
       </ul>
     </section>
     <section>
-<!--Секция "Наши сотрудники"-->
-    <h2>Наша команда</h2>
+
+<!---------------------Секция "НАШИ СОТРУДНИКИ"--------------------->
+
+    <h2 class="visually-hiden">НАШИ СОТРУДНИКИ</h2>
       <ul>
         <li>
           <img class="team"
@@ -123,8 +133,12 @@
       </ul>
     </section>
   </main>
+
+  <!-- ---------------------ФУТЕР--------------------- -->
+
   <footer>
-    <a href=""><span lang="en">Web</span><span lang="en">Studio</span></a>
+    <a href="./index.html"><span class="logo-web" lang="en">Web</span>
+      <span class="logo-studio" lang="en">Studio</span></a>
     <address>
       <ul>
         <li><a href="https://goo.gl/maps/Z62wFfJjC6pHoW1k6" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
