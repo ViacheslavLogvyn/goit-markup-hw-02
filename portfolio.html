@@ -10,14 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"/>
     <title>WebStudio portfolio</title>
-    <link rel="stylesheet" href="../goit-markup-hw-01./styles/styles.css\"/>
+    <link rel="stylesheet" href="./styles/styles.css"/>
   </head>
-
+  <body>
 <!-- ---------------------ШАПКА СТОРІНКИ--------------------- -->
 
   <header class="header">
-    <a href="./index.html"><span class="logo-web" lang="en">Web</span>
-      <span class="logo-studio" lang="en">Studio</span></a>
+    <a href="./index.html"><span class="logo-web" lang="en">Web</span><span class="logo-studio" lang="en">Studio</span></a>
 
     <!-- -------------------НАВІГАЦІЯ САЙТУ ХЕДЕР------------------- -->
 
@@ -38,11 +37,11 @@
     </div>
   </header>
 
-  <body>
     <main>
         <h1 class="visually-hiden">Портфолио</h1>
 <!-- ---------------------ФІЛЬТР ПОРТФОЛІО--------------------- -->
     <section class="filter">
+      <h2 class="visually-hiden">filter</h2>
       <ul class="filter-list">
         <li><button class="filter-btn" type="button">Все</button></li>
         <li><button class="filter-btn" type="button">Веб-сайты</button></li>
@@ -51,87 +50,111 @@
         <li><button class="filter-btn" type="button">Маркетинг</button></li>
       </ul>
     </section>
+    <!-- ---------------------ГАЛЕРЕЯ РОБІТ--------------------- -->
     <section class="gallery">
+      <h2 class="visually-hiden">gallery</h2>
       <ul class="gallery-list">
         <li class="gallery-item">
-          <img 
-          src="./images/techno.jpg" 
-          alt="Технокряк"
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Технокряк</h2>
-          <p class="gallery-text">Веб-сайт</p>
+          <a href="#">
+            <img
+              src="./images/techno.jpg" 
+              alt="Технокряк"
+              width="370"
+              height="294">
+              <h3 class="gallery-title">Технокряк</h3>
+              <p class="gallery-text">Веб-сайт</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/neworlean.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-          <p class="gallery-text">Дизайн</p>
+          <a href="#">
+            <img 
+              src="./images/neworlean.jpg" 
+              alt="Постер"
+              width="370"
+              height="294">
+              <h3>Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+              <p class="gallery-text">Дизайн</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/seafood.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Ресторан<span lang="en">Seafood</span></h2>
-          <p class="gallery-text">Приложение</p>
+          <a href="#">
+            <img 
+              src="./images/seafood.jpg"
+              alt="Ресторан" 
+              width="370"
+              height="294">
+              <h3 class="gallery-title">Ресторан<span lang="en">Seafood</span></h3>
+              <p class="gallery-text">Приложение</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/prime.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Проект<span lang="en">Prime</span></h2>
-          <p class="gallery-text"></p>
+          <a href="#">
+            <img 
+              src="./images/prime.jpg"
+              alt="Проект Прайм" 
+              width="370"
+              height="294"> 
+              <h3 class="gallery-title">Проект<span lang="en">Prime</span></h3>
+              <p class="gallery-text">Маркетинг</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/boxes.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Проект<span lang="en">Boxes</span></h2>
-          <p class="gallery-text">Приложение</p>
+          <a href="#">
+            <img 
+              src="./images/boxes.jpg"
+              alt="Приложение" 
+              width="370"
+              height="294">
+              <h3 class="gallery-title">Проект<span lang="en">Boxes</span></h3>
+              <p class="gallery-text">Приложение</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/inspiration.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 lang="en" class="gallery-title">Inspiration has no Borders</h2>
-          <p class="gallery-text">Веб-сайт</p>
+          <a href="#">
+            <img 
+              src="./images/inspiration.jpg"
+              alt="Веб-сайт" 
+              width="370"
+              height="294">
+              <h3 lang="en" class="gallery-title">Inspiration has no Borders</h3>
+              <p class="gallery-text">Веб-сайт</p>
+          </a>  
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/limited.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Издание<span lang="en">Limited Edition</span></h2>
-          <p class="gallery-text">Дизайн</p>
+          <a href="#">
+            <img 
+              src="./images/limited.jpg"
+              alt="Издание" 
+              width="370"
+              height="294">
+              <h3 class="gallery-title">Издание<span lang="en">Limited Edition</span></h3>
+              <p class="gallery-text">Дизайн</p>
+          </a>
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/lab.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 class="gallery-title">Проект <span lang="en">LAB</span></h2>
-          <p class="gallery-text">Маркетинг</p>
+          <a href="#">
+            <img 
+              src="./images/lab.jpg"
+              alt="Проект" 
+              width="370"
+              height="294">
+              <h3 class="gallery-title">Проект <span lang="en">LAB</span></h3>
+              <p class="gallery-text">Маркетинг</p>
+          </a> 
         </li>
         <li class="gallery-item">
-          <img 
-          src="./images/business.jpg" 
-          width: 370px;
-          height: 294px;>
-          <h2 lang="en" class="gallery-title">Growing Business</h2>
-          <p class="gallery-text">Приложение</p>
+          <a href="#">
+            <img 
+              src="./images/business.jpg"
+              alt="Приложение" 
+              width="370"
+              height="294">
+              <h3 lang="en" class="gallery-title">Growing Business</h3>
+              <p class="gallery-text">Приложение</p>
+          </a>
         </li>
       </ul>
     </section>
-
-      
-    
-
     </main>
 
 <!-- ---------------------ФУТЕР--------------------- -->
