@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'noto', 'arial', sans-serif;
+  font-family: 'Roboto', 'noto', sans-serif;
   background-color: #FFFFFF;
   color: #212121;
 }
@@ -15,6 +15,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: default;
 }
 
 ul {
@@ -34,7 +35,7 @@ ul {
   margin: -1px;
 }
 
-/* ------------------------ЛОГОТИП ХЕДЕР------------------------ */
+/* ------------------------ЛОГО ХЕДЕР------------------------ */
 .logo-web {
   font-family: 'Raleway';
   font-style: normal;
@@ -55,7 +56,7 @@ ul {
   letter-spacing: 0.03em;
   color: black;
 }
-/* ------------------------ЛОГОТИП ФУТЕР------------------------ */
+/* ------------------------ЛОГО ФУТЕР------------------------ */
 
 .logo-studio-footer {
   color: whitesmoke;
@@ -93,6 +94,8 @@ ul {
 }
 
 .hero-btn {
+  font-family: 'Roboto', 'noto', sans-serif;
+  font-style: normal;
   background-color: #2196F3;
   font-weight: 700;
   font-size: 16px;
@@ -105,7 +108,16 @@ ul {
   cursor: pointer;
 }
 
-/* ---------------------ПРИНЦИПЫ РАБОТЫ--------------------- */
+/* ---------------------ПРИНЦИПИ РОБОТЫ--------------------- */
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
 
 .principles-title {
   font-weight: 700;
@@ -142,9 +154,11 @@ ul {
   color: #757575;
 }
 
-/* ------------------------ФІЛЬТЕР------------------------ */
+/* ------------------------ФІЛЬТР------------------------ */
 
 .filter-btn {
+  font-family: 'Roboto', 'noto', sans-serif;;
+  font-style: normal;
   background: #F5F4FA;
   font-weight: 500;
   font-size: 16px;
@@ -166,8 +180,6 @@ ul {
   color: #FFFFFF;
   cursor: pointer;
 }
-
-/* ------------------------ГЕЛЕРЕЯ------------------------ */
 
 .gallery-title {
   font-weight: 700;
@@ -208,20 +220,14 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
-
-.link:hover,
 .logo:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
+cursor: pointer;
 }
 
-.logo:focus, 
-.link:focus {
-  text-decoration: underline;
-  text-decoration-color: var(--accent-color);
-  color: var(--accent-color);
-}
-
+.address:hover,
+.address:focus,
+.site-nav:hover,
+.site-nav:focus,
 .info:hover,
 .info:focus,
 .contacts-mail:hover,
@@ -229,6 +235,7 @@ footer {
 .contacts-tel:hover,
 .contacts-tel:focus {
 color: var(--accent-color);
+cursor: pointer;
 }
 
 .filter-btn:focus{
